@@ -8,6 +8,7 @@ import os
 import yaml
 import jsonschema
 import requests
+from graph_compare import GraphComparator
 from flask import Flask, request, abort, Response
 from flask_restful import Api, Resource
 from flasgger import Swagger
@@ -77,6 +78,7 @@ class DiffQuery(StandardAPIResource):
         """
         self.validate (request)
         print (json.dumps(request.json, indent=2))
+        graph_comparator = GraphComparator ()
         result = {
             "node_diff" : {
                 "node_label_1_v_node_label_2" : [
@@ -104,6 +106,7 @@ class DiffQuery(StandardAPIResource):
                 }
             }
         }
+        result['graph_diff'] = graph_comparator.compare (request)
         return result
 
 ###############################################################################################

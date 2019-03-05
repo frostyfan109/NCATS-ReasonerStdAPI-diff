@@ -75,7 +75,8 @@ class DiffQuery(StandardAPIResource):
                         schema:
                             type: string
         """
-        #self.validate (request)        
+        self.validate (request)
+        print (json.dumps(request.json, indent=2))
         result = {
             "node_diff" : {
                 "node_label_1_v_node_label_2" : [

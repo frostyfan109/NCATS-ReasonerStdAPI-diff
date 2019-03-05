@@ -44,21 +44,7 @@ answer = {
         "id": "HP:0002105",
         "type": "phenotypic_feature",
         "omnicorp_article_count": 10902
-      }
-
-    ],
-    "edges" : [
-        {
-        }
-    ],
-      "options" : {},
-    "node_bindings" : [
-        {}
-    ]
-  }
-}        
-'''
-        ,
+      },
       {
         "name": "acute myeloid leukemia",
         "id": "MONDO:0018874",
@@ -18190,4 +18176,4 @@ answer = {
     }
   ]
 }
-'''
+

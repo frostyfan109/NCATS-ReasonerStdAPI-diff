@@ -29,6 +29,7 @@ class GraphComparator:
             print (f"---e-> {e}")
 
     def get_diff_edges_with_data (self, graph_diff, orig_graph):
+        """ This needs help. Maybe we can only say the endpoints of the nodes if difference does not return data. """
         graph_diff_edge_map = {
             f"e['source_id']-e['target_id']" : e for e in graph_diff.edges (data=True)
         }
@@ -42,13 +43,13 @@ class GraphComparator:
 
         g1_g2 = self.diff_graphs (g1, g2)
         g2_g1 = self.diff_graphs (g2, g1)
-        
+        self.print_graph (g2_g1)
         return {
                 "g1-g2" : {
-                    "edges" : self.get_diff_edges_with_data (g1_g2, g1)
+                    "edges" : [ e for e in g1_g2.edges () ] #self.get_diff_edges_with_data (g1_g2, g1)
                 },
                 "g2-g1" : {
-                    "edges" : self.get_diff_edges_with_data (g2_g1, g2)
+                    "edges" : [ e for e in g2_g1.edges () ] #self.get_diff_edges_with_data (g2_g1, g2)
                 },
                 "intersection" : {
                     "nodes" : [ ],

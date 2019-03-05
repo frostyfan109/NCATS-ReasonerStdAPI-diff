@@ -24,7 +24,7 @@ filename = 'translator_interchange_0.9.0.yaml'
 with open(filename, 'r') as file_obj:
     template = yaml.load(file_obj)
 app.config['SWAGGER'] = {
-    'title': 'TranQL Backplane',
+    'title': 'Translator Answer Tools',
     'description': 'hi',
     'uiversion': 3
 }
@@ -53,7 +53,7 @@ class DiffQuery(StandardAPIResource):
         compare
         ---
         tag: compare
-        description: Query the ICEES clinical reasoner for associations between population clusters and chemicals.
+        description: Compare two answers.
         requestBody:
             description: Input message
             required: true
@@ -106,7 +106,9 @@ class DiffQuery(StandardAPIResource):
                 }
             }
         }
-        result['graph_diff'] = graph_comparator.compare (request)
+        result['graph_diff'] = graph_comparator.compare (
+            request.json['answer_1'],
+            request.json['answer_2'])
         return result
 
 ###############################################################################################

@@ -7,7 +7,7 @@ response = requests.post (
     "http://localhost:9999/compare_answers",
     json = {
         "answer_1" : test_rtx.answer,
-        "answer_2" : test_rtx.answer #test_robokop.answer)
+        "answer_2" : test_robokop.answer
     },
     headers = {
         'accept': 'application/json'

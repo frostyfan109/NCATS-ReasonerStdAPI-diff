@@ -1,3 +1,25 @@
+x= {
+        "relation": "RO:0002200",
+        "target_id": "MONDO:0018874",
+        "edge_source": "biolink.phenotype_get_disease",
+        "publications": [
+          "PMID:16039247",
+          "PMID:6591864",
+          "PMID:7049597",
+          "PMID:8241983",
+          "PMID:8404130"
+        ],
+        "id": "1820642",
+        "predicate_id": "RO:0002200",
+        "source_database": "BioLink", #diff "biolink",
+        "source_id": "HP:0002105",
+        "type": "has_phenotype",
+        "ctime": 1543707244.3735547,
+        "relation_label": "has phenotype",
+        "weight": 0.8093606487732907
+      }#,
+
+
 answer = {
   "question_graph": {
     "edges": [
@@ -30,6 +52,7 @@ answer = {
   },
   "knowledge_graph": {
     "nodes": [
+
       {
         "equivalent_identifiers": [
           "MEDDRA:10005806",
@@ -45,6 +68,7 @@ answer = {
         "type": "phenotypic_feature",
         "omnicorp_article_count": 10902
       },
+
       {
         "name": "acute myeloid leukemia",
         "id": "MONDO:0018874",
@@ -3571,26 +3595,6 @@ answer = {
       }
     ],
     "edges": [
-      {
-        "relation": "RO:0002200",
-        "target_id": "MONDO:0018874",
-        "edge_source": "biolink.phenotype_get_disease",
-        "publications": [
-          "PMID:16039247",
-          "PMID:6591864",
-          "PMID:7049597",
-          "PMID:8241983",
-          "PMID:8404130"
-        ],
-        "id": "1820642",
-        "predicate_id": "RO:0002200",
-        "source_database": "BioLink", #diff "biolink",
-        "source_id": "HP:0002105",
-        "type": "has_phenotype",
-        "ctime": 1543707244.3735547,
-        "relation_label": "has phenotype",
-        "weight": 0.8093606487732907
-      },
       {
         "relation": "RO:0002200",
         "target_id": "HP:0002105",

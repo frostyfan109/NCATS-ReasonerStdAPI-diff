@@ -77,7 +77,7 @@ class DiffQuery(StandardAPIResource):
                             type: string
         """
         self.validate (request)
-        print (json.dumps(request.json, indent=2))
+        #print (json.dumps(request.json, indent=2))
         graph_comparator = GraphComparator ()
         result = {
             "node_diff" : {

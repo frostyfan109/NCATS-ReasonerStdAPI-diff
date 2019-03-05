@@ -46,6 +46,7 @@ class GraphComparator:
         self.print_graph (g2_g1)
         return {
                 "g1-g2" : {
+                    """ Looks like we an know whether there is an edge but it's unclear if we can distinguish edges. """
                     "edges" : [ e for e in g1_g2.edges () ] #self.get_diff_edges_with_data (g1_g2, g1)
                 },
                 "g2-g1" : {

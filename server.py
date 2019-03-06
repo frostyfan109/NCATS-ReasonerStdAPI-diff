@@ -10,6 +10,7 @@ import jsonschema
 import requests
 from graph_compare import GraphComparator
 from node_diff import NodeDiff
+from normalizer import Normalizer
 from flask import Flask, request, abort, Response
 from flask_restful import Api, Resource
 from flasgger import Swagger
@@ -79,12 +80,28 @@ class DiffQuery(StandardAPIResource):
         """
         self.validate (request)
         #print (json.dumps(request.json, indent=2))
+        
+        normalizer = Normalizer ()
+        answer_1 = request.json['answer_1']
+        answer_2 = request.json['answer_2']
+        answer_1_norm = normalizer.normalize (answer_1)
+        answer_2_norm = normalizer.normalize (answer_2)
+
+        node_diff = NodeDiff(answer_1_norm, answer_2_norm)
         graph_comparator = GraphComparator ()
-        node_diff = NodeDiff(
-            request.json['answer_1'],
-            request.json['answer_2'])
-        result = {
-            "node_diff" : {
+
+        return {
+            'node_diff' : node_diff.node_diff(),
+            'graph_diff' : graph_comparator.compare (
+                answer_1_norm,
+                answer_2_norm)
+        }
+        
+        #request.json['answer_1'],
+        #    request.json['answer_2'])
+        '''
+        result = {}
+             "node_diff" : {
                 "node_label_1_v_node_label_2" : [
                     "node_id (?)"
                 ],
@@ -110,12 +127,13 @@ class DiffQuery(StandardAPIResource):
                 }
             }
         }
-        result['graph_diff'] = graph_comparator.compare (
+
+        result['graph_diff'] = graph_comparator.compare (answer
             request.json['answer_1'],
             request.json['answer_2'])
         result['node_diff'] = node_diff.node_diff()
         return result
-
+        '''
 ###############################################################################################
 #
 # Define routes.

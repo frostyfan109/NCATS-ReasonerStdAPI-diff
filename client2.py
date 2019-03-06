@@ -11,13 +11,16 @@ del proto_rtx['knowledge_graph']['edges'][-1]
 proto_rtx2 = copy.deepcopy(test_rtx.answer)
 del proto_rtx2['knowledge_graph']['edges'][-2]
 
-#url = "http://localhost:9999/compare_answers"
-url = "https://compare-kg.renci.org/compare_answers"
+test_answer = None
+with open('test.json', 'r') as stream:
+    test_answer = json.load (stream)
+url = "http://localhost:9999/compare_answers"
+#url = "https://compare-kg.renci.org/compare_answers"
 response = requests.post (
     url,
     json = {
-        "answer_1" : proto_rtx2, #test_rtx.answer,
-        "answer_2" : proto_rtx
+        "answer_1" : test_answer, #2, #test_rtx.answer,
+        "answer_2" : test_answer
     },
     headers = {
         'accept': 'application/json'

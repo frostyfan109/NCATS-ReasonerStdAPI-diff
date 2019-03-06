@@ -12,7 +12,9 @@ proto_rtx2 = copy.deepcopy(test_rtx.answer)
 del proto_rtx2['knowledge_graph']['edges'][-2]
 
 test_answer = None
-with open('test.json', 'r') as stream:
+input_file = 'test.json' # already noramlized
+input_file = 'test_rtx_orig.json' # not normalized
+with open('test_rtx_orig.json', 'r') as stream:
     test_answer = json.load (stream)
 url = "http://localhost:9999/compare_answers"
 #url = "https://compare-kg.renci.org/compare_answers"

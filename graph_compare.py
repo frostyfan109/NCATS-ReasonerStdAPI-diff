@@ -71,7 +71,8 @@ class GraphComparator:
             
     def edge_equals (self, e1, e2):
         equal = True
-        fields = [ "source_id", "target_id", "type", "edge_source", "source_database" ]
+        #fields = [ "source_id", "target_id", "type", "edge_source", "source_database" ]
+        fields = [ "source_id", "target_id", "type", "source_database" ]
         for f in fields:
             if not (f in e1 and f in e2 and e1[f] == e2[f]):
                 #print (f"7777777>>>>>>>>>    {f}    bad")

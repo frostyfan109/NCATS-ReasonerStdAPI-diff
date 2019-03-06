@@ -82,11 +82,11 @@ class DiffQuery(StandardAPIResource):
         #print (json.dumps(request.json, indent=2))
         
         normalizer = Normalizer ()
-        answer_1 = request.json['answer_1']
-        answer_2 = request.json['answer_2']
+        answer_1 = request.json ['answer_1']
+        answer_2 = request.json ['answer_2']
         answer_1_norm = normalizer.normalize (answer_1)
         answer_2_norm = normalizer.normalize (answer_2)
-
+        json.dumps(answer_1_norm, indent=2)
         node_diff = NodeDiff(answer_1_norm, answer_2_norm)
         graph_comparator = GraphComparator ()
 
@@ -97,43 +97,6 @@ class DiffQuery(StandardAPIResource):
                 answer_2_norm)
         }
         
-        #request.json['answer_1'],
-        #    request.json['answer_2'])
-        '''
-        result = {}
-             "node_diff" : {
-                "node_label_1_v_node_label_2" : [
-                    "node_id (?)"
-                ],
-                "g1-g2" : [
-                    "node_id (?)"
-                ],
-                "g2-g1" : [
-                    "node_id (?)"
-                ]
-            },
-            "graph_diff" : {
-                "g1-g2" : {
-                    "nodes" : [ ],
-                    "edges" : [ ]
-                },
-                "g2-g1" : {
-                    "nodes" : [ ],
-                    "edges" : [ ]
-                },
-                "intersection" : {
-                    "nodes" : [ ],
-                    "edges" : [ ]
-                }
-            }
-        }
-
-        result['graph_diff'] = graph_comparator.compare (answer
-            request.json['answer_1'],
-            request.json['answer_2'])
-        result['node_diff'] = node_diff.node_diff()
-        return result
-        '''
 ###############################################################################################
 #
 # Define routes.

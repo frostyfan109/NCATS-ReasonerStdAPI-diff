@@ -86,7 +86,12 @@ class DiffQuery(StandardAPIResource):
         answer_2 = request.json ['answer_2']
         answer_1_norm = normalizer.normalize (answer_1)
         answer_2_norm = normalizer.normalize (answer_2)
-        json.dumps(answer_1_norm, indent=2)
+        
+        if isinstance(answer_1_norm,str):
+            raise Exception(answer_1_norm)
+        if isinstance(answer_2_norm,str):
+            raise Exception(answer_2_norm)
+
         node_diff = NodeDiff(answer_1_norm, answer_2_norm)
         graph_comparator = GraphComparator ()
 

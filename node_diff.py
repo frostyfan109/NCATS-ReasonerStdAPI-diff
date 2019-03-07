@@ -79,7 +79,6 @@ class NodeDiff():
             elif 'node_id' in self.input2['question_graph']['nodes'][0]:
                 node_names2 = [x['node_id'] for x in self.input2['question_graph']['nodes']]
         
-        node_names2 = [x['id'] for x in self.input2['question_graph']['nodes']]
         # initialize the result dictonary
         diff_dict = {}
         diff_dict["-1|-1"] = {'intersection':[],'g1-g2':[],'g2-g1':[]}

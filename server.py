@@ -42,7 +42,7 @@ class StandardAPIResource(Resource):
         try:
             jsonschema.validate(request.json, to_validate)
         except jsonschema.exceptions.ValidationError as error:
-            print (f"ERROR: {str(error)}")
+            #print (f"ERROR: {str(error)}")
             abort(Response(str(error), 400))
     def get_opt (self, request, opt):
         return request.get('option', {}).get (opt)

@@ -33,7 +33,7 @@ class GraphComparator:
         """ Diff nx graphs. """
         g1_copy_2 = g1.copy ()
         edges_to_delete = []
-        print (f"0. edges in g1_copy_2: {len(list(g1_copy_2.edges ()))}")
+        #print (f"0. edges in g1_copy_2: {len(list(g1_copy_2.edges ()))}")
         for e in g1_copy_2.edges(data=True, keys=True):
             source = e[0]
             target = e[1]
@@ -61,7 +61,7 @@ class GraphComparator:
             except:
                 print ("exception deleting edge")
                 pass
-        print (f"1. edges in g1_copy_2: {len(list(g1_copy_2.edges ()))}")
+        #print (f"1. edges in g1_copy_2: {len(list(g1_copy_2.edges ()))}")
                    
         return g1_copy_2
     
@@ -91,9 +91,9 @@ class GraphComparator:
     def print_graph (self, g):
         """ Print graph. """
         for n in g.nodes (data=True):
-            print (f"--n--> {n}")
+            pass #print (f"--n--> {n}")
         for e in g.edges (data=True):
-            print (f"---e-> {e}")
+            pass #print (f"---e-> {e}")
 
     def compare (self, answer1, answer2):
         """ Compare graphs from a request. """

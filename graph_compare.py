@@ -107,14 +107,33 @@ class GraphComparator:
         g1_g2 = self.diff_graphs (g1, g2)
         g2_g1 = self.diff_graphs (g2, g1)
         intersection = self.intersect (g1, g2)
+
+        # for each of the difference graphs, only include those nodes that show up as a source or a target for one
+        # of the edges
+        g1_g2_connected_nodes = set()
+        for u,v,d in g1_g2.edges(data=True):
+            g1_g2_connected_nodes.add(u)  # source node
+            g1_g2_connected_nodes.add(v)  # target node
+        g1_g2_connected_nodes_data = []
+        # now get the data associated to these nodes
+        for node in g1_g2_connected_nodes:
+            g1_g2_connected_nodes_data.append(g1_g2.node[node]['attr_dict'])
+
+        g2_g1_connected_nodes = set()
+        for u, v, d in g2_g1.edges(data=True):
+            g2_g1_connected_nodes.add(u)
+            g2_g1_connected_nodes.add(v)
+        g2_g1_connected_nodes_data = []
+        for node in g2_g1_connected_nodes:
+            g2_g1_connected_nodes_data.append(g2_g1.node[node]['attr_dict'])
         return {
             "g1-g2" : {
                 "edges" : [ e[2]['attr_dict'] for e in g1_g2.edges (data=True) ],
-		"nodes" : [ n[1]['attr_dict'] for n in g1_g2.nodes(data=True)]
+                "nodes" : g1_g2_connected_nodes_data
             },
             "g2-g1" : {
                 "edges" : [ e[2]['attr_dict'] for e in g2_g1.edges (data=True) ],
-		"nodes" : [ n[1]['attr_dict'] for n in g2_g1.nodes(data=True) ]
+                "nodes": g2_g1_connected_nodes_data
             },
             "intersection" : {
                 "nodes" : [ n[1]['attr_dict'] for n in intersection.nodes (data=True) if 'attr_dict' in n[1] ],

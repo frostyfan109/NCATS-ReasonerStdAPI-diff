@@ -109,10 +109,12 @@ class GraphComparator:
         intersection = self.intersect (g1, g2)
         return {
             "g1-g2" : {
-                "edges" : [ e[2]['attr_dict'] for e in g1_g2.edges (data=True) ]
+                "edges" : [ e[2]['attr_dict'] for e in g1_g2.edges (data=True) ],
+		"nodes" : [ n[1]['attr_dict'] for n in g1_g2.nodes(data=True)]
             },
             "g2-g1" : {
-                "edges" : [ e[2]['attr_dict'] for e in g2_g1.edges (data=True) ]
+                "edges" : [ e[2]['attr_dict'] for e in g2_g1.edges (data=True) ],
+		"nodes" : [ n[1]['attr_dict'] for n in g2_g1.nodes(data=True) ]
             },
             "intersection" : {
                 "nodes" : [ n[1]['attr_dict'] for n in intersection.nodes (data=True) if 'attr_dict' in n[1] ],

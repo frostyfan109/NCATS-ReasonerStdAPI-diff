@@ -64,8 +64,21 @@ class NodeDiff():
             # node section keeps track of node ids associated with each node i.e. "n0"
             g2[curie]['node'] = set()
             curie_set.add(curie)
+        node_names1 = []
+        node_names2 = []
+
         # extract all node ids (i.e. "n0","n1",ect...)
-        node_names1 = [x['id'] for x in self.input1['question_graph']['nodes']]
+        if len(self.input1['question_graph']['nodes'])>0:
+            if 'id' in self.input1['question_graph']['nodes'][0]:
+                node_names1 = [x['id'] for x in self.input1['question_graph']['nodes']]
+            elif 'node_id' in self.input1['question_graph']['nodes'][0]:
+                node_names1 = [x['node_id'] for x in self.input1['question_graph']['nodes']]
+        if len(self.input2['question_graph']['nodes'])>0:
+            if 'id' in self.input2['question_graph']['nodes'][0]:
+                node_names2 = [x['id'] for x in self.input2['question_graph']['nodes']]
+            elif 'node_id' in self.input2['question_graph']['nodes'][0]:
+                node_names2 = [x['node_id'] for x in self.input2['question_graph']['nodes']]
+        
         node_names2 = [x['id'] for x in self.input2['question_graph']['nodes']]
         # initialize the result dictonary
         diff_dict = {}

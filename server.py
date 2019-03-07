@@ -84,8 +84,26 @@ class DiffQuery(StandardAPIResource):
         normalizer = Normalizer ()
         answer_1 = request.json ['answer_1']
         answer_2 = request.json ['answer_2']
+
+        if 'query_graph' in answer_1:
+            answer_1['question_graph'] = answer_1['query_graph']
+            del answer_1['query_graph']
+
+        if 'query_graph' in answer_2:
+            answer_2['question_graph'] = answer_2['query_graph']
+            del answer_2['query_graph']
+
+        if 'results' in answer_1:
+            answer_1['answers'] = answer_1['results']
+            del answer_1['results']
+
+        if 'results' in answer_2:
+            answer_2['answers'] = answer_2['results']
+            del answer_2['results']
+
         answer_1_norm = normalizer.normalize (answer_1)
         answer_2_norm = normalizer.normalize (answer_2)
+        
         if isinstance(answer_1_norm,str):
             raise Exception(answer_1_norm)
         if isinstance(answer_2_norm,str):

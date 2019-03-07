@@ -1,0 +1,1585 @@
+{
+  "context": null,
+  "datetime": null,
+  "id": null,
+  "known_query_type_id": null,
+  "message": "33 results found",
+  "n_results": null,
+  "original_question_text": null,
+  "query_type_id": null,
+  "question_graph": {
+    "edges": [
+      {
+        "id": "e0",
+        "source_id": "n0",
+        "target_id": "n1",
+        "type": "physically_interacts_with"
+      },
+      {
+        "id": "e1",
+        "source_id": "n1",
+        "target_id": "n2",
+        "type": "has_phenotype"
+      }
+    ],
+    "nodes": [
+      {
+        "curie": [
+          "CHEMBL.COMPOUND:CHEMBL714"
+        ],
+        "id": "n0",
+        "name": "Albuterol",
+        "set": false,
+        "type": "chemical_substance"
+      },
+      {
+        "id": "n1",
+        "type": "protein"
+      },
+      {
+        "id": "n2",
+        "type": "phenotypic_feature"
+      }
+    ]
+  },
+  "reasoner_id": null,
+  "response_code": "OK",
+  "restated_question_text": null,
+  "result_code": null,
+  "result_list": [
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Nephropathy",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A nonspecific term referring to disease or damage of the kidneys.",
+            "id": "HP:0000112",
+            "name": "Nephropathy",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000112"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Nephropathy",
+        "HP:0000112"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Nephropathy are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "coagulation factor IX",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "ChEMBL",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P00740",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "This gene encodes vitamin K-dependent coagulation factor IX that circulates in the blood as an inactive zymogen. This factor is converted to an active form by factor XIa, which excises the activation peptide and thus generates a heavy chain and a light chain held together by one or more disulfide bonds. The role of this activated factor IX in the blood coagulation cascade is to activate factor X to its active form through interactions with Ca+2 ions, membrane phospholipids, and factor VIII. Alterations of this gene, including point mutations, insertions and deletions, cause factor IX deficiency, which is a recessive X-linked disorder, also called hemophilia B or Christmas disease. Alternative splicing results in multiple transcript variants encoding different isoforms that may undergo similar proteolytic processing. [provided by RefSeq, Sep 2015].",
+            "id": "UniProtKB:P00740",
+            "name": "coagulation factor IX",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P00740"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "coagulation factor IX",
+        "UniProtKB:P00740"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and coagulation factor IX are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Intramuscular hematoma",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "Blood clot formed within muscle tissue following leakage of blood into the tissue.",
+            "id": "HP:0012233",
+            "name": "Intramuscular hematoma",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012233"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Intramuscular hematoma",
+        "HP:0012233"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Intramuscular hematoma are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Type II diabetes mellitus",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A type of diabetes mellitus initially characterized by insulin resistance and hyperinsulinemia and subsequently by glucose interolerance and hyperglycemia.",
+            "id": "HP:0005978",
+            "name": "Type II diabetes mellitus",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0005978"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Type II diabetes mellitus",
+        "HP:0005978"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Type II diabetes mellitus are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Obesity",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Accumulation of substantial excess body fat.",
+            "id": "HP:0001513",
+            "name": "Obesity",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001513"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Obesity",
+        "HP:0001513"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Obesity are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Delayed eruption of teeth",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "Delayed tooth eruption, which can be defined as tooth eruption more than 2 SD beyond the mean eruption age.",
+            "id": "HP:0000684",
+            "name": "Delayed eruption of teeth",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000684"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Delayed eruption of teeth",
+        "HP:0000684"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Delayed eruption of teeth are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Abnormality of the cerebral vasculature",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "None",
+            "id": "HP:0100659",
+            "name": "Abnormality of the cerebral vasculature",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100659"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Abnormality of the cerebral vasculature",
+        "HP:0100659"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Abnormality of the cerebral vasculature are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Spontaneous, recurrent epistaxis",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "None",
+            "id": "HP:0004406",
+            "name": "Spontaneous, recurrent epistaxis",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0004406"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Spontaneous, recurrent epistaxis",
+        "HP:0004406"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Spontaneous, recurrent epistaxis are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "calcium sensing receptor",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "ChEMBL",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P41180",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "The protein encoded by this gene is a plasma membrane G protein-coupled receptor that senses small changes in circulating calcium concentration. The encoded protein couples this information to intracellular signaling pathways that modify parathyroid hormone secretion or renal cation handling, and thus this protein plays an essential role in maintaining mineral ion homeostasis. Mutations in this gene are a cause of familial hypocalciuric hypercalcemia, neonatal severe hyperparathyroidism, and autosomal dominant hypocalcemia. [provided by RefSeq, Aug 2017].",
+            "id": "UniProtKB:P41180",
+            "name": "calcium sensing receptor",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P41180"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "calcium sensing receptor",
+        "UniProtKB:P41180"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and calcium sensing receptor are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Leukocytosis",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "An abnormal increase in the number of leukocytes in the blood.",
+            "id": "HP:0001974",
+            "name": "Leukocytosis",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001974"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Leukocytosis",
+        "HP:0001974"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Leukocytosis are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Cephalohematoma",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Hemorrhage between the skull and periosteum of a newborn resulting from rupture of blood vessels that cross the periosteum.",
+            "id": "HP:0012541",
+            "name": "Cephalohematoma",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012541"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Cephalohematoma",
+        "HP:0012541"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Cephalohematoma are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Myopathy",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A disorder of muscle unrelated to impairment of innervation or neuromuscular junction.",
+            "id": "HP:0003198",
+            "name": "Myopathy",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0003198"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Myopathy",
+        "HP:0003198"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Myopathy are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "interleukin 6",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "Pharos",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P05231",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "This gene encodes a cytokine that functions in inflammation and the maturation of B cells. In addition, the encoded protein has been shown to be an endogenous pyrogen capable of inducing fever in people with autoimmune diseases or infections. The protein is primarily produced at sites of acute and chronic inflammation, where it is secreted into the serum and induces a transcriptional inflammatory response through interleukin 6 receptor, alpha. The functioning of this gene is implicated in a wide variety of inflammation-associated disease states, including suspectibility to diabetes mellitus and systemic juvenile rheumatoid arthritis. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Dec 2015].",
+            "id": "UniProtKB:P05231",
+            "name": "interleukin 6",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P05231"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "interleukin 6",
+        "UniProtKB:P05231"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and interleukin 6 are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Intestinal obstruction",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "Blockage or impairment of the normal flow of the contents of the intestine towards the anal canal.",
+            "id": "HP:0005214",
+            "name": "Intestinal obstruction",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0005214"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Intestinal obstruction",
+        "HP:0005214"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Intestinal obstruction are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Jaundice",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Yellow pigmentation of the skin or sclera due to bilirubin, which in turn is the result of increased bilirubin concentration in the bloodstream.",
+            "id": "HP:0000952",
+            "name": "Jaundice",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000952"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Jaundice",
+        "HP:0000952"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Jaundice are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Prolonged partial thromboplastin time",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Increased time to coagulation in the partial thromboplastin time (PTT) test, a measure of the intrinsic and common coagulation pathways. Phospholipid, and activator, and calcium are mixed into an anticoagulated plasma sample, and the time is measured until a thrombus forms.",
+            "id": "HP:0003645",
+            "name": "Prolonged partial thromboplastin time",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0003645"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Prolonged partial thromboplastin time",
+        "HP:0003645"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Prolonged partial thromboplastin time are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Elevated C-reactive protein level",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "An abnormal elevation of the C-reactive protein level in serum.",
+            "id": "HP:0011227",
+            "name": "Elevated C-reactive protein level",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0011227"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Elevated C-reactive protein level",
+        "HP:0011227"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Elevated C-reactive protein level are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Prolonged bleeding after surgery",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Bleeding that persists longer than the normal time following a surgical procedure.",
+            "id": "HP:0004846",
+            "name": "Prolonged bleeding after surgery",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0004846"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Prolonged bleeding after surgery",
+        "HP:0004846"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Prolonged bleeding after surgery are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "glucagon receptor",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "ChEMBL",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P47871",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "The protein encoded by this gene is a glucagon receptor that is important in controlling blood glucose levels. Defects in this gene are a cause of non-insulin-dependent diabetes mellitus (NIDDM).[provided by RefSeq, Jan 2010].",
+            "id": "UniProtKB:P47871",
+            "name": "glucagon receptor",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P47871"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "glucagon receptor",
+        "UniProtKB:P47871"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and glucagon receptor are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Menometrorrhagia",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Prolonged/excessive menses and bleeding at irregular intervals.",
+            "id": "HP:0400008",
+            "name": "Menometrorrhagia",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0400008"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Menometrorrhagia",
+        "HP:0400008"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Menometrorrhagia are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Peripheral arteriovenous fistula",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "None",
+            "id": "HP:0100784",
+            "name": "Peripheral arteriovenous fistula",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100784"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Peripheral arteriovenous fistula",
+        "HP:0100784"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Peripheral arteriovenous fistula are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Prolonged bleeding after dental extraction",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "Prolonged bleeding post dental extraction sufficient to require medical intervention.",
+            "id": "HP:0006298",
+            "name": "Prolonged bleeding after dental extraction",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0006298"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Prolonged bleeding after dental extraction",
+        "HP:0006298"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Prolonged bleeding after dental extraction are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Visceral angiomatosis",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "None",
+            "id": "HP:0100761",
+            "name": "Visceral angiomatosis",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100761"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Visceral angiomatosis",
+        "HP:0100761"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Visceral angiomatosis are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Abnormal enzyme/coenzyme activity",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "An altered ability of any enzyme or their cofactors to act as catalysts. This term includes changes due to altered levels of an enzyme.",
+            "id": "HP:0012379",
+            "name": "Abnormal enzyme/coenzyme activity",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012379"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Abnormal enzyme/coenzyme activity",
+        "HP:0012379"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Abnormal enzyme/coenzyme activity are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Insulin resistance",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "Increased resistance towards insulin, that is, diminished effectiveness of insulin in reducing blood glucose levels.",
+            "id": "HP:0000855",
+            "name": "Insulin resistance",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000855"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Insulin resistance",
+        "HP:0000855"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Insulin resistance are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Decreased resting energy expenditure",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "An reduction in the number of calories used per unit time.",
+            "id": "HP:0012340",
+            "name": "Decreased resting energy expenditure",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012340"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Decreased resting energy expenditure",
+        "HP:0012340"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Decreased resting energy expenditure are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Abnormality of dental enamel",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "An abnormality of the dental enamel.",
+            "id": "HP:0000682",
+            "name": "Abnormality of dental enamel",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000682"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Abnormality of dental enamel",
+        "HP:0000682"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Abnormality of dental enamel are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Splanchnic vein thrombosis",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "The term splanchnic vein thrombosis encompasses Budd-Chiari syndrome (hepatic vein thrombosis), extrahepatic portal vein obstruction (EHPVO), and mesenteric vein thrombosis; the word splanchnic is used to refer to the visceral organs (of the abdominal cavity).",
+            "id": "HP:0030247",
+            "name": "Splanchnic vein thrombosis",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0030247"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Splanchnic vein thrombosis",
+        "HP:0030247"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Splanchnic vein thrombosis are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Delayed onset bleeding",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "Abnormal bleeding related to a procedure or trauma which does not start at the time of the initial insult, but after delay by at least 24 hours.",
+            "id": "HP:0040232",
+            "name": "Delayed onset bleeding",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0040232"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Delayed onset bleeding",
+        "HP:0040232"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Delayed onset bleeding are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "adrenoceptor beta 3",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "ChEMBL",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P13945",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "The protein encoded by this gene belongs to the family of beta adrenergic receptors, which mediate catecholamine-induced activation of adenylate cyclase through the action of G proteins. This receptor is located mainly in the adipose tissue and is involved in the regulation of lipolysis and thermogenesis. [provided by RefSeq, Feb 2009].",
+            "id": "UniProtKB:P13945",
+            "name": "adrenoceptor beta 3",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P13945"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "adrenoceptor beta 3",
+        "UniProtKB:P13945"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and adrenoceptor beta 3 are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "Poor wound healing",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "A reduced ability to heal cutaneous wounds.",
+            "id": "HP:0001058",
+            "name": "Poor wound healing",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001058"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "Poor wound healing",
+        "HP:0001058"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and Poor wound healing are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "cystic fibrosis transmembrane conductance regulator",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "Pharos",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P13569",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "This gene encodes a member of the ATP-binding cassette (ABC) transporter superfamily. The encoded protein functions as a chloride channel, making it unique among members of this protein family, and controls ion and water secretion and absorption in epithelial tissues. Channel activation is mediated by cycles of regulatory domain phosphorylation, ATP-binding by the nucleotide-binding domains, and ATP hydrolysis. Mutations in this gene cause cystic fibrosis, the most common lethal genetic disorder in populations of Northern European descent. The most frequently occurring mutation in cystic fibrosis, DeltaF508, results in impaired folding and trafficking of the encoded protein. Multiple pseudogenes have been identified in the human genome. [provided by RefSeq, Aug 2017].",
+            "id": "UniProtKB:P13569",
+            "name": "cystic fibrosis transmembrane conductance regulator",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P13569"
+          },
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "cystic fibrosis transmembrane conductance regulator",
+        "UniProtKB:P13569"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and cystic fibrosis transmembrane conductance regulator are connected by the relationships physically_interacts_with,has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "description": null,
+      "essence": "adrenoceptor beta 2",
+      "id": null,
+      "reasoner_id": null,
+      "result_graph": {
+        "edge_list": [
+          {
+            "attribute_list": null,
+            "confidence": null,
+            "evidence_type": null,
+            "is_defined_by": "RTX",
+            "negated": null,
+            "provided_by": "ChEMBL",
+            "publications": null,
+            "qualifiers": null,
+            "relation": null,
+            "source_id": "UniProtKB:P07550",
+            "target_id": "CHEMBL.COMPOUND:CHEMBL714",
+            "type": "physically_interacts_with"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A member of the class of phenylethanolamines that is 4-(2-amino-1-hydroxyethyl)-2-(hydroxymethyl)phenol having a tert-butyl group attached to the nirogen atom. It acts as a <greek>beta</greek>-adrenergic agonist used in the treatment of asthma and chronic obstructive pulmonary disease (COPD).",
+            "id": "CHEMBL.COMPOUND:CHEMBL714",
+            "name": "albuterol",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "chemical_substance",
+            "uri": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL714"
+          },
+          {
+            "description": "This gene encodes beta-2-adrenergic receptor which is a member of the G protein-coupled receptor superfamily. This receptor is directly associated with one of its ultimate effectors, the class C L-type calcium channel Ca(V)1.2. This receptor-channel complex also contains a G protein, an adenylyl cyclase, cAMP-dependent kinase, and the counterbalancing phosphatase, PP2A. The assembly of the signaling complex provides a mechanism that ensures specific and rapid signaling by this G protein-coupled receptor. This gene is intronless. Different polymorphic forms, point mutations, and/or downregulation of this gene are associated with nocturnal asthma, obesity and type 2 diabetes. [provided by RefSeq, Jul 2008].",
+            "id": "UniProtKB:P07550",
+            "name": "adrenoceptor beta 2",
+            "node_attributes": null,
+            "symbol": null,
+            "type": "protein",
+            "uri": "http://identifiers.org/uniprot/P07550"
+          }
+        ]
+      },
+      "result_group": null,
+      "result_group_similarity_score": null,
+      "result_type": null,
+      "row_data": [
+        "albuterol",
+        "CHEMBL.COMPOUND:CHEMBL714",
+        "adrenoceptor beta 2",
+        "UniProtKB:P07550"
+      ],
+      "score": null,
+      "score_direction": null,
+      "score_name": null,
+      "text": "albuterol and adrenoceptor beta 2 are connected by the relationships physically_interacts_with,has_phenotype"
+    }
+  ],
+  "schema_version": "0.5",
+  "table_column_names": [
+    "source name",
+    "source ID",
+    "target name",
+    "target ID"
+  ],
+  "terms": null,
+  "tool_version": "RTX 0.5.4",
+  "type": "medical_translator_query_result"
+}

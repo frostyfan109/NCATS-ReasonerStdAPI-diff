@@ -1,6 +1,7 @@
 import json
 import networkx as nx
 import sys
+import traceback
 
 class GraphComparator:
     """ Compare knowledge graphs. """
@@ -83,7 +84,11 @@ class GraphComparator:
     def intersect (self, g1, g2):        
         g1_copy = g1.copy ()
         g1_copy.remove_nodes_from(n for n in g1 if not n in g2)
-        intersection = nx.intersection (g1_copy, g2)
+        intersection = nx.MultiDiGraph ()
+        try:
+            intersection = nx.intersection (g1_copy, g2)
+        except:
+            traceback.print_exc ()
         g1_copy_2 = g1.copy ()
         g1_copy_2.remove_nodes_from(n for n in g1 if not n in intersection)
         return g1_copy_2

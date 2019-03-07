@@ -1,0 +1,1504 @@
+{
+  "context": "https://raw.githubusercontent.com/biolink/biolink-model/master/context.jsonld",
+  "datetime": "2019-03-04 19:55:03",
+  "id": "https://rtx.ncats.io/api/rtx/v1/response/1440",
+  "message": "36 results found",
+  "n_results": 36,
+  "original_question_text": "What are the phenotypic features of Ebola hemorrhagic fever?",
+  "query_type_id": "Q5",
+  "reasoner_id": "RTX",
+  "response_code": "OK",
+  "restated_question_text": "What are the phenotypes of the disease Ebola hemorrhagic fever",
+  "result_list": [
+    {
+      "confidence": 1,
+      "essence": "Seizures",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44566",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001250",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Seizures are an intermittent abnormality of the central nervous system due to a sudden, excessive, disorderly discharge of cerebral neurons and characterized clinically by some combination of disturbance of sensation, loss of consciousness, impairment of psychic function, or convulsive movements. The term epilepsy is used to describe chronic, recurrent seizures.",
+            "id": "HP:0001250",
+            "name": "Seizures",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001250"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Seizures",
+        "HP:0001250"
+      ],
+      "text": "Ebola hemorrhagic fever and Seizures are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Macule",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44567",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0012733",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A flat, distinct, discolored area of skin less than 1 cm wide that does not involve any change in the thickness or texture of the skin.",
+            "id": "HP:0012733",
+            "name": "Macule",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012733"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Macule",
+        "HP:0012733"
+      ],
+      "text": "Ebola hemorrhagic fever and Macule are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Nausea and vomiting",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44568",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002017",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "None",
+            "id": "HP:0002017",
+            "name": "Nausea and vomiting",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002017"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Nausea and vomiting",
+        "HP:0002017"
+      ],
+      "text": "Ebola hemorrhagic fever and Nausea and vomiting are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Recurrent infections",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44569",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002719",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Increased susceptibility to infections.",
+            "id": "HP:0002719",
+            "name": "Recurrent infections",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002719"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Recurrent infections",
+        "HP:0002719"
+      ],
+      "text": "Ebola hemorrhagic fever and Recurrent infections are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Skin rash",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44570",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0000988",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A red eruption of the skin.",
+            "id": "HP:0000988",
+            "name": "Skin rash",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000988"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Skin rash",
+        "HP:0000988"
+      ],
+      "text": "Ebola hemorrhagic fever and Skin rash are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Sepsis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44571",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0100806",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Systemic inflammatory response to infection.",
+            "id": "HP:0100806",
+            "name": "Sepsis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100806"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Sepsis",
+        "HP:0100806"
+      ],
+      "text": "Ebola hemorrhagic fever and Sepsis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Subcutaneous hemorrhage",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44572",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001933",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "This term refers to an abnormally increased susceptibility to bruising (purpura, petechiae, or ecchymoses).",
+            "id": "HP:0001933",
+            "name": "Subcutaneous hemorrhage",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001933"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Subcutaneous hemorrhage",
+        "HP:0001933"
+      ],
+      "text": "Ebola hemorrhagic fever and Subcutaneous hemorrhage are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Chemosis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44573",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0012375",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Edema (swelling) of the bulbar conjunctiva.",
+            "id": "HP:0012375",
+            "name": "Chemosis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012375"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Chemosis",
+        "HP:0012375"
+      ],
+      "text": "Ebola hemorrhagic fever and Chemosis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Stomatitis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44574",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0010280",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Stomatitis is an inflammation of the mucous membranes of any of the structures in the mouth.",
+            "id": "HP:0010280",
+            "name": "Stomatitis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0010280"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Stomatitis",
+        "HP:0010280"
+      ],
+      "text": "Ebola hemorrhagic fever and Stomatitis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Recurrent pharyngitis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44575",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0100776",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "An increased susceptibility to pharyngitis as manifested by a history of recurrent pharyngitis.",
+            "id": "HP:0100776",
+            "name": "Recurrent pharyngitis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100776"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Recurrent pharyngitis",
+        "HP:0100776"
+      ],
+      "text": "Ebola hemorrhagic fever and Recurrent pharyngitis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Disseminated intravascular coagulation",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44576",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0005521",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Disseminated intravascular coagulation is characterized by the widespread activation of coagulation, which results in the intravascular formation of fibrin and ultimately thrombotic occlusion of small and midsize vessels.",
+            "id": "HP:0005521",
+            "name": "Disseminated intravascular coagulation",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0005521"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Disseminated intravascular coagulation",
+        "HP:0005521"
+      ],
+      "text": "Ebola hemorrhagic fever and Disseminated intravascular coagulation are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Myalgia",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44577",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0003326",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Pain in muscle.",
+            "id": "HP:0003326",
+            "name": "Myalgia",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0003326"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Myalgia",
+        "HP:0003326"
+      ],
+      "text": "Ebola hemorrhagic fever and Myalgia are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Immune dysregulation",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44578",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002958",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Altered immune function characterized by lymphoid proliferation, immune activation, and excessive autoreactivity often leading to autoimmune/inflammatory complications.",
+            "id": "HP:0002958",
+            "name": "Immune dysregulation",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002958"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Immune dysregulation",
+        "HP:0002958"
+      ],
+      "text": "Ebola hemorrhagic fever and Immune dysregulation are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Epistaxis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44579",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0000421",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Epistaxis, or nosebleed, refers to a hemorrhage localized in the nose.",
+            "id": "HP:0000421",
+            "name": "Epistaxis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000421"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Epistaxis",
+        "HP:0000421"
+      ],
+      "text": "Ebola hemorrhagic fever and Epistaxis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Fever",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44580",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001945",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "Elevated body temperature due to failed thermoregulation.",
+            "id": "HP:0001945",
+            "name": "Fever",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001945"
+          },
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Fever",
+        "HP:0001945"
+      ],
+      "text": "Ebola hemorrhagic fever and Fever are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Proteinuria",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44581",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0000093",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Increased levels of protein in the urine.",
+            "id": "HP:0000093",
+            "name": "Proteinuria",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000093"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Proteinuria",
+        "HP:0000093"
+      ],
+      "text": "Ebola hemorrhagic fever and Proteinuria are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Gingival bleeding",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44582",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0000225",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Hemorrhage affecting the gingiva.",
+            "id": "HP:0000225",
+            "name": "Gingival bleeding",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000225"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Gingival bleeding",
+        "HP:0000225"
+      ],
+      "text": "Ebola hemorrhagic fever and Gingival bleeding are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Lethargy",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44583",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001254",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A state of disinterestedness, listlessness, and indifference, resulting in difficulty performing simple tasks or concentrating.",
+            "id": "HP:0001254",
+            "name": "Lethargy",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001254"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Lethargy",
+        "HP:0001254"
+      ],
+      "text": "Ebola hemorrhagic fever and Lethargy are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Thrombocytopenia",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44584",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001873",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A reduction in the number of circulating thrombocytes.",
+            "id": "HP:0001873",
+            "name": "Thrombocytopenia",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001873"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Thrombocytopenia",
+        "HP:0001873"
+      ],
+      "text": "Ebola hemorrhagic fever and Thrombocytopenia are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Acute hepatic failure",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44585",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0006554",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Hepatic failure refers to the inability of the liver to perform its normal synthetic and metabolic functions, which can result in coagulopathy and alteration in the mental status of a previously healthy individual. Hepatic failure is defined as acute if there is onset of encephalopathy within 8 weeks of the onset of symptoms in a patient with a previously healthy liver.",
+            "id": "HP:0006554",
+            "name": "Acute hepatic failure",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0006554"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Acute hepatic failure",
+        "HP:0006554"
+      ],
+      "text": "Ebola hemorrhagic fever and Acute hepatic failure are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Renal insufficiency",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44586",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0000083",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A reduction in the level of performance of the kidneys in areas of function comprising the concentration of urine, removal of wastes, the maintenance of electrolyte balance, homeostasis of blood pressure, and calcium metabolism.",
+            "id": "HP:0000083",
+            "name": "Renal insufficiency",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0000083"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Renal insufficiency",
+        "HP:0000083"
+      ],
+      "text": "Ebola hemorrhagic fever and Renal insufficiency are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Headache",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44587",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002315",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Cephalgia, or pain sensed in various parts of the head, not confined to the area of distribution of any nerve.",
+            "id": "HP:0002315",
+            "name": "Headache",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002315"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Headache",
+        "HP:0002315"
+      ],
+      "text": "Ebola hemorrhagic fever and Headache are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Encephalitis",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44588",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002383",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "None",
+            "id": "HP:0002383",
+            "name": "Encephalitis",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002383"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Encephalitis",
+        "HP:0002383"
+      ],
+      "text": "Ebola hemorrhagic fever and Encephalitis are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Cardiac arrest",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44589",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001695",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "An abrupt loss of heart function.",
+            "id": "HP:0001695",
+            "name": "Cardiac arrest",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001695"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Cardiac arrest",
+        "HP:0001695"
+      ],
+      "text": "Ebola hemorrhagic fever and Cardiac arrest are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Gastrointestinal hemorrhage",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44590",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002239",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Hemorrhage affecting the gastrointestinal tract.",
+            "id": "HP:0002239",
+            "name": "Gastrointestinal hemorrhage",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002239"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Gastrointestinal hemorrhage",
+        "HP:0002239"
+      ],
+      "text": "Ebola hemorrhagic fever and Gastrointestinal hemorrhage are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Coma",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44591",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001259",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Complete absence of wakefulness and content of conscience, which manifests itself as a lack of response to any kind of external stimuli.",
+            "id": "HP:0001259",
+            "name": "Coma",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001259"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Coma",
+        "HP:0001259"
+      ],
+      "text": "Ebola hemorrhagic fever and Coma are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Metrorrhagia",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44592",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0100608",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Bleeding at irregular intervals.",
+            "id": "HP:0100608",
+            "name": "Metrorrhagia",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100608"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Metrorrhagia",
+        "HP:0100608"
+      ],
+      "text": "Ebola hemorrhagic fever and Metrorrhagia are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Abnormality of the coagulation cascade",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44593",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0003256",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "An abnormality of the coagulation cascade, which is comprised of the contact activation pathway (also known as the intrinsic pathway) and the tissue factor pathway (also known as the extrinsic pathway) as well as cofactors and regulators.",
+            "id": "HP:0003256",
+            "name": "Abnormality of the coagulation cascade",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0003256"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Abnormality of the coagulation cascade",
+        "HP:0003256"
+      ],
+      "text": "Ebola hemorrhagic fever and Abnormality of the coagulation cascade are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Fatigue",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44594",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0012378",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A subjective feeling of tiredness characterized by a lack of energy and motivation.",
+            "id": "HP:0012378",
+            "name": "Fatigue",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012378"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Fatigue",
+        "HP:0012378"
+      ],
+      "text": "Ebola hemorrhagic fever and Fatigue are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Diarrhea",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44595",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002014",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Abnormally increased frequency of loose or watery bowel movements.",
+            "id": "HP:0002014",
+            "name": "Diarrhea",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002014"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Diarrhea",
+        "HP:0002014"
+      ],
+      "text": "Ebola hemorrhagic fever and Diarrhea are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Cough",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44596",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0012735",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.",
+            "id": "HP:0012735",
+            "name": "Cough",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0012735"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Cough",
+        "HP:0012735"
+      ],
+      "text": "Ebola hemorrhagic fever and Cough are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Leukopenia",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44597",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0001882",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "An abnormal decreased number of leukocytes in the blood.",
+            "id": "HP:0001882",
+            "name": "Leukopenia",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0001882"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Leukopenia",
+        "HP:0001882"
+      ],
+      "text": "Ebola hemorrhagic fever and Leukopenia are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Immunodeficiency",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44598",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002721",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "Failure of the immune system to protect the body adequately from infection, due to the absence or insufficiency of some component process or substance.",
+            "id": "HP:0002721",
+            "name": "Immunodeficiency",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002721"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Immunodeficiency",
+        "HP:0002721"
+      ],
+      "text": "Ebola hemorrhagic fever and Immunodeficiency are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Abdominal pain",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44599",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002027",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) and perceived to originate in the abdomen.",
+            "id": "HP:0002027",
+            "name": "Abdominal pain",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002027"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Abdominal pain",
+        "HP:0002027"
+      ],
+      "text": "Ebola hemorrhagic fever and Abdominal pain are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Chest pain",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44600",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0100749",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.",
+            "id": "HP:0100749",
+            "name": "Chest pain",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0100749"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Chest pain",
+        "HP:0100749"
+      ],
+      "text": "Ebola hemorrhagic fever and Chest pain are connected by the relationship has_phenotype"
+    },
+    {
+      "confidence": 1,
+      "essence": "Restrictive ventilatory defect",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/44601",
+      "reasoner_id": "RTX",
+      "result_graph": {
+        "edge_list": [
+          {
+            "is_defined_by": "RTX",
+            "provided_by": "BioLink",
+            "source_id": "DOID:4325",
+            "target_id": "HP:0002091",
+            "type": "has_phenotype"
+          }
+        ],
+        "node_list": [
+          {
+            "description": "A viral infectious disease that is a hemorrhagic fever, has_material_basis_in Zaire ebolavirus, has_material_basis_in Sudan ebolavirus, has_material_basis_in Cote d'Ivoire ebolavirus, or has_material_basis_in Bundibugyo ebolavirus, which are transmitted_by contact with the body fluids of an infected animal or person, transmitted_by contaminated fomites, or transmitted_by infected medical equipment. The infection has_symptom fever, has_symptom headache, has_symptom joint pain, has_symptom muscle aches, has_symptom sore throat, has_symptom weakness, has_symptom diarrhea, has_symptom vomiting, has_symptom stomach pain, has_symptom rash, has_symptom red eyes, has_symptom hiccups, and has_symptom internal and external bleeding.",
+            "id": "DOID:4325",
+            "name": "Ebola hemorrhagic fever",
+            "type": "disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4325"
+          },
+          {
+            "description": "A functional defect characterized by reduced total lung capacity (TLC) not associated with abnormalities of expiratory airflow or airway resistance. Restrictive lung disease may be caused by alterations in lung parenchyma or because of a disease of the pleura, chest wall, or neuromuscular apparatus.",
+            "id": "HP:0002091",
+            "name": "Restrictive ventilatory defect",
+            "type": "phenotypic_feature",
+            "uri": "http://purl.obolibrary.org/obo/HP_0002091"
+          }
+        ]
+      },
+      "result_type": "individual query answer",
+      "row_data": [
+        "Ebola hemorrhagic fever",
+        "DOID:4325",
+        "Restrictive ventilatory defect",
+        "HP:0002091"
+      ],
+      "text": "Ebola hemorrhagic fever and Restrictive ventilatory defect are connected by the relationship has_phenotype"
+    }
+  ],
+  "schema_version": "0.5",
+  "table_column_names": [
+    "source name",
+    "source ID",
+    "target name",
+    "target ID"
+  ],
+  "terms": {
+    "disease": "DOID:4325",
+    "rel_type": "has_phenotype",
+    "target_label": "phenotypic_feature"
+  },
+  "tool_version": "RTX 0.5.4",
+  "type": "medical_translator_query_response"
+}

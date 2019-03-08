@@ -1,0 +1,2976 @@
+{
+  "code_description": "20 results found",
+  "context": "https://raw.githubusercontent.com/biolink/biolink-model/master/context.jsonld",
+  "datetime": "2019-03-07 16:27:00",
+  "id": "https://rtx.ncats.io/api/rtx/v1/message/213",
+  "knowledge_graph": {
+    "edges": [
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "0",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "1",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "2",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "3",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "4",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0030182",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "5",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0045595",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "6",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0001503",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "7",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0048935",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "8",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0002062",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "9",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0030097",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "10",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q01196",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "11",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0001503",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "12",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0030097",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "13",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0002062",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "14",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0048935",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "15",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0030182",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "16",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0045595",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "17",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "18",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q15911",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "19",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0071559",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "20",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q15911",
+        "target_id": "GO:0071559",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "21",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q15911",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "22",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "23",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "24",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q15911",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "25",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q15911",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "26",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y4A8",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "27",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y4A8",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "28",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y4A8",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "29",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y4A8",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "30",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P23511",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "31",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P23511",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "32",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P23511",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "33",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P23511",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "34",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:O75486",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "35",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:O75486",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "36",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:O75486",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "37",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:O75486",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "38",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P51531",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "39",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P51531",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "40",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P51531",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "41",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P51531",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "42",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P51531",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "43",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5T1R4",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "44",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5T1R4",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "45",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5T1R4",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "46",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5T1R4",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "47",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9UL49",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "48",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9UL49",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "49",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9UL49",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "50",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9UL49",
+        "target_id": "GO:0045595",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "51",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q92618",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "52",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q92618",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "53",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q92618",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "54",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q92618",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "55",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9BYU1",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "56",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9BYU1",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "57",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9BYU1",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "58",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q02930",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "59",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q02930",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "60",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q02930",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "61",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P52737",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "62",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P52737",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "63",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P52737",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "64",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9HCG1",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "65",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9HCG1",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "66",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9HCG1",
+        "target_id": "GO:0030097",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "67",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P28698",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "68",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P28698",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "69",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P28698",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "70",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P48382",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "71",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P48382",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "72",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:P48382",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "73",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8TD17",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "74",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8TD17",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "75",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8TD17",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "76",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "77",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0030182",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "78",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0045595",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "79",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0001503",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "80",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0002062",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "81",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0030097",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "82",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13950",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "83",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8IZX4",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "84",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8IZX4",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "85",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8IZX4",
+        "target_id": "GO:0006468",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "86",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q8IZX4",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "87",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0006468",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "88",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y5V3",
+        "target_id": "GO:0006357",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "89",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y5V3",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "90",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y5V3",
+        "target_id": "GO:0050680",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "91",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q9Y5V3",
+        "target_id": "GO:0045893",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "92",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q13761",
+        "target_id": "GO:0050680",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "93",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5JPB2",
+        "target_id": "GO:0006366",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "94",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5JPB2",
+        "target_id": "GO:0006355",
+        "type": "involved_in",
+        "weight": null
+      },
+      {
+        "confidence": null,
+        "defined_datetime": null,
+        "edge_attributes": null,
+        "evidence_type": null,
+        "id": "95",
+        "is_defined_by": "RTX",
+        "negated": null,
+        "provided_by": "gene_ontology",
+        "publications": null,
+        "qualifiers": null,
+        "relation": null,
+        "source_id": "UniProtKB:Q5JPB2",
+        "target_id": "GO:0000122",
+        "type": "involved_in",
+        "weight": null
+      }
+    ],
+    "nodes": [
+      {
+        "description": "Any process that modulates the frequency, rate or extent of transcription mediated by RNA polymerase II.",
+        "id": "GO:0006357",
+        "name": "regulation of transcription by RNA polymerase II",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0006357"
+      },
+      {
+        "description": "The synthesis of RNA from a DNA template by RNA polymerase II, originating at an RNA polymerase II promoter. Includes transcription of messenger RNA (mRNA) and certain small nuclear RNAs (snRNAs).",
+        "id": "GO:0006366",
+        "name": "transcription by RNA polymerase II",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0006366"
+      },
+      {
+        "description": "Core binding factor (CBF) is a heterodimeric transcription factor that binds to the core element of many enhancers and promoters. The protein encoded by this gene represents the alpha subunit of CBF and is thought to be involved in the development of normal hematopoiesis. Chromosomal translocations involving this gene are well-documented and have been associated with several types of leukemia. Three transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:Q01196",
+        "name": "runt related transcription factor 1",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q01196"
+      },
+      {
+        "description": "The formation of bone or of a bony substance, or the conversion of fibrous tissue or of cartilage into bone or a bony substance.",
+        "id": "GO:0001503",
+        "name": "ossification",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0001503"
+      },
+      {
+        "description": "The process whose specific outcome is the progression of the myeloid and lymphoid derived organ/tissue systems of the blood and other parts of the body over time, from formation to the mature structure. The site of hemopoiesis is variable during development, but occurs primarily in bone marrow or kidney in many adult vertebrates.",
+        "id": "GO:0030097",
+        "name": "hemopoiesis",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0030097"
+      },
+      {
+        "description": "The process in which a chondroblast acquires specialized structural and/or functional features of a chondrocyte. A chondrocyte is a polymorphic cell that forms cartilage.",
+        "id": "GO:0002062",
+        "name": "chondrocyte differentiation",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0002062"
+      },
+      {
+        "description": "This gene encodes a member of the runt domain-containing family of transcription factors. A heterodimer of this protein and a beta subunit forms a complex that binds to the core DNA sequence 5'-PYGPYGGT-3' found in a number of enhancers and promoters, and can either activate or suppress transcription. It also interacts with other transcription factors. It functions as a tumor suppressor, and the gene is frequently deleted or transcriptionally silenced in cancer. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Mar 2016].",
+        "id": "UniProtKB:Q13761",
+        "name": "runt related transcription factor 3",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q13761"
+      },
+      {
+        "description": "The process whose specific outcome is the progression of a neuron whose cell body is located in the peripheral nervous system, from initial commitment of the cell to a neuronal fate, to the fully functional differentiated neuron.",
+        "id": "GO:0048935",
+        "name": "peripheral nervous system neuron development",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0048935"
+      },
+      {
+        "description": "The process in which a relatively unspecialized cell acquires specialized features of a neuron.",
+        "id": "GO:0030182",
+        "name": "neuron differentiation",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0030182"
+      },
+      {
+        "description": "Any process that modulates the frequency, rate or extent of cell differentiation, the process in which relatively unspecialized cells acquire specialized structural and functional features.",
+        "id": "GO:0045595",
+        "name": "regulation of cell differentiation",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0045595"
+      },
+      {
+        "description": "Any process that activates or increases the frequency, rate or extent of cellular DNA-templated transcription.",
+        "id": "GO:0045893",
+        "name": "positive regulation of transcription, DNA-templated",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0045893"
+      },
+      {
+        "description": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a transforming growth factor beta stimulus.",
+        "id": "GO:0071559",
+        "name": "response to transforming growth factor beta",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0071559"
+      },
+      {
+        "description": "Any process that stops, prevents, or reduces the frequency, rate or extent of transcription mediated by RNA polymerase II.",
+        "id": "GO:0000122",
+        "name": "negative regulation of transcription by RNA polymerase II",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0000122"
+      },
+      {
+        "description": "Any process that modulates the frequency, rate or extent of cellular DNA-templated transcription.",
+        "id": "GO:0006355",
+        "name": "regulation of transcription, DNA-templated",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0006355"
+      },
+      {
+        "description": "This gene encodes a transcription factor with multiple homeodomains and zinc finger motifs, and regulates myogenic and neuronal differentiation. The encoded protein suppresses expression of the alpha-fetoprotein gene by binding to an AT-rich enhancer motif. The protein has also been shown to negatively regulate c-Myb, and transactivate the cell cycle inhibitor cyclin-dependent kinase inhibitor 1A (also known as p21CIP1). This gene is reported to function as a tumor suppressor in several cancers, and sequence variants of this gene are also associated with atrial fibrillation. Multiple transcript variants expressed from alternate promoters and encoding different isoforms have been found for this gene. [provided by RefSeq, Sep 2009].",
+        "id": "UniProtKB:Q15911",
+        "name": "zinc finger homeobox 3",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q15911"
+      },
+      {
+        "description": "This gene encodes a member of the cap 'n' collar basic-region leucine zipper family of transcription factors. The encoded protein heterodimerizes with small musculoaponeurotic fibrosarcoma factors to bind antioxidant response elements in target genes. This protein is a membrane bound glycoprotein that is targeted to the endoplasmic reticulum and the nuclear envelope. Pseudogenes of this gene are found on chromosomes 16, 17, and 18. [provided by RefSeq, Mar 2009].",
+        "id": "UniProtKB:Q9Y4A8",
+        "name": "nuclear factor, erythroid 2 like 3",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q9Y4A8"
+      },
+      {
+        "description": "The protein encoded by this gene is one subunit of a trimeric complex, forming a highly conserved transcription factor that binds to CCAAT motifs in the promoter regions in a variety of genes. Subunit A associates with a tight dimer composed of the B and C subunits, resulting in a trimer that binds to DNA with high specificity and affinity. The sequence specific interactions of the complex are made by the A subunit, suggesting a role as the regulatory subunit. In addition, there is evidence of post-transcriptional regulation in this gene product, either by protein degradation or control of translation. Further regulation is represented by alternative splicing in the glutamine-rich activation domain, with clear tissue-specific preferences for the two isoforms. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:P23511",
+        "name": "nuclear transcription factor Y subunit alpha",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/P23511"
+      },
+      {
+        "description": "None",
+        "id": "UniProtKB:O75486",
+        "name": "SPT3 homolog, SAGA and STAGA complex component",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/O75486"
+      },
+      {
+        "description": "The protein encoded by this gene is a member of the SWI/SNF family of proteins and is highly similar to the brahma protein of Drosophila. Members of this family have helicase and ATPase activities and are thought to regulate transcription of certain genes by altering the chromatin structure around those genes. The encoded protein is part of the large ATP-dependent chromatin remodeling complex SNF/SWI, which is required for transcriptional activation of genes normally repressed by chromatin. Alternatively spliced transcript variants encoding different isoforms have been found for this gene, which contains a trinucleotide repeat (CAG) length polymorphism. [provided by RefSeq, Jan 2014].",
+        "id": "UniProtKB:P51531",
+        "name": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/P51531"
+      },
+      {
+        "description": "This gene encodes a member of the human immunodeficiency virus type 1 enhancer-binding protein family. Members of this protein family contain multiple zinc finger and acid-rich (ZAS) domains and serine-threonine rich regions. This protein acts as a transcription factor and is able to regulate nuclear factor kappaB-mediated transcription by binding the kappaB motif in target genes. This protein also binds the recombination signal sequence that flanks the V, D, and J regions of immunoglobulin and T-cell receptors. Alternate splicing results in both coding and non-coding transcript variants. [provided by RefSeq, Sep 2011].",
+        "id": "UniProtKB:Q5T1R4",
+        "name": "human immunodeficiency virus type I enhancer binding protein 3",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q5T1R4"
+      },
+      {
+        "description": "None",
+        "id": "UniProtKB:Q9UL49",
+        "name": "transcription factor like 5",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q9UL49"
+      },
+      {
+        "description": "Zinc-finger proteins bind nucleic acids and play important roles in various cellular functions, including cell proliferation, differentiation, and apoptosis. This gene encodes a zinc-finger protein, and belongs to the krueppel C2H2-type zinc-finger protein family. It may be involved in transcriptional regulation. [provided by RefSeq, Sep 2012].",
+        "id": "UniProtKB:Q92618",
+        "name": "zinc finger protein 516",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q92618"
+      },
+      {
+        "description": "This gene encodes a member of the pre-B cell leukemia transcription factor family. These proteins are homeobox proteins that play critical roles in embryonic development and cellular differentiation both as Hox cofactors and through Hox-independent pathways. The encoded protein contains a homeobox DNA-binding domain, but specific functions of the protein have not been determined. Alternatively spliced transcript variants have been observed for this gene. [provided by RefSeq, May 2011].",
+        "id": "UniProtKB:Q9BYU1",
+        "name": "PBX homeobox 4",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q9BYU1"
+      },
+      {
+        "description": "The product of this gene belongs to the CRE (cAMP response element)-binding protein family. Members of this family contain zinc-finger and bZIP DNA-binding domains. The encoded protein specifically binds to CRE as a homodimer or a heterodimer with c-Jun or CRE-BP1, and functions as a CRE-dependent trans-activator. Alternatively spliced transcript variants encoding different isoforms have been identified. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:Q02930",
+        "name": "cAMP responsive element binding protein 5",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q02930"
+      },
+      {
+        "description": "This gene encodes a zinc finger protein containing a Kruppel-associated box (KRAB) A-box domain at its N-terminus, followed by fourteen contiguous C2H2 zinc finger domains and a degenerate zinc finger. The KRAB A-box showed weak transcriptional repressor activity in a reporter gene assay. Alternative splicing results in multiple transcript variants encoding different isoforms. [provided by RefSeq, Dec 2016].",
+        "id": "UniProtKB:P52737",
+        "name": "zinc finger protein 136",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/P52737"
+      },
+      {
+        "description": "The protein encoded by this gene is a Kruppel-related zinc finger protein which is characterized by the presence of an N-terminal repressor domain, the Kruppel-associated box (KRAB). The KRAB domain is a potent repressor of transcription; thus this protein may function in transcription regulation. Multiple transcript variants have been found for this gene. [provided by RefSeq, Apr 2016].",
+        "id": "UniProtKB:Q9HCG1",
+        "name": "zinc finger protein 160",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q9HCG1"
+      },
+      {
+        "description": "None",
+        "id": "UniProtKB:P28698",
+        "name": "myeloid zinc finger 1",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/P28698"
+      },
+      {
+        "description": "A lack of MHC-II expression results in a severe immunodeficiency syndrome called MHC-II deficiency, or the bare lymphocyte syndrome (BLS; MIM 209920). At least 4 complementation groups have been identified in B-cell lines established from patients with BLS. The molecular defects in complementation groups B, C, and D all lead to a deficiency in RFX, a nuclear protein complex that binds to the X box of MHC-II promoters. The lack of RFX binding activity in complementation group C results from mutations in the RFX5 gene encoding the 75-kD subunit of RFX (Steimle et al., 1995). RFX5 is the fifth member of the growing family of DNA-binding proteins sharing a novel and highly characteristic DNA-binding domain called the RFX motif. Multiple alternatively spliced transcript variants have been found but the full-length natures of only two have been determined. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:P48382",
+        "name": "regulatory factor X5",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/P48382"
+      },
+      {
+        "description": "This gene encodes a member of the Kruppel family of C2H2-type zinc-finger transcription factor proteins. The encoded protein acts as a transcriptional activator. Two transcript variants encoding distinct isoforms have been identified for this gene. Other transcript variants have been described, but their full length sequence has not been determined. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:Q8TD17",
+        "name": "zinc finger protein 398",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q8TD17"
+      },
+      {
+        "description": "This gene is a member of the RUNX family of transcription factors and encodes a nuclear protein with an Runt DNA-binding domain. This protein is essential for osteoblastic differentiation and skeletal morphogenesis and acts as a scaffold for nucleic acids and regulatory factors involved in skeletal gene expression. The protein can bind DNA both as a monomer or, with more affinity, as a subunit of a heterodimeric complex. Two regions of potential trinucleotide repeat expansions are present in the N-terminal region of the encoded protein, and these and other mutations in this gene have been associated with the bone development disorder cleidocranial dysplasia (CCD). Transcript variants that encode different protein isoforms result from the use of alternate promoters as well as alternate splicing. [provided by RefSeq, Jul 2016].",
+        "id": "UniProtKB:Q13950",
+        "name": "runt related transcription factor 2",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q13950"
+      },
+      {
+        "description": "This locus is intronless, and apparently arose in the primate lineage from retrotransposition of the transcript from the multi-exon TAF1 locus on the X chromosome. The gene is expressed in male germ cells, and the product has been shown to function interchangeably with the TAF1 product. [provided by RefSeq, Aug 2015].",
+        "id": "UniProtKB:Q8IZX4",
+        "name": "TATA-box binding protein associated factor 1 like",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q8IZX4"
+      },
+      {
+        "description": "The process of introducing a phosphate group on to a protein.",
+        "id": "GO:0006468",
+        "name": "protein phosphorylation",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0006468"
+      },
+      {
+        "description": "This gene is a member of the melanoma antigen gene (MAGE) family. Most of the genes of this family encode tumor specific antigens that are not expressed in normal adult tissues except testis. Although the protein encoded by this gene shares strong homology with members of the MAGE family, it is expressed in almost all normal adult tissues. This gene has been demonstrated to be involved in the p75 neurotrophin receptor mediated programmed cell death pathway. Three transcript variants encoding two different isoforms have been found for this gene. [provided by RefSeq, Jul 2008].",
+        "id": "UniProtKB:Q9Y5V3",
+        "name": "MAGE family member D1",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q9Y5V3"
+      },
+      {
+        "description": "Any process that stops, prevents or reduces the rate or extent of epithelial cell proliferation.",
+        "id": "GO:0050680",
+        "name": "negative regulation of epithelial cell proliferation",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "biological_process"
+        ],
+        "uri": "http://purl.obolibrary.org/obo/GO_0050680"
+      },
+      {
+        "description": "None",
+        "id": "UniProtKB:Q5JPB2",
+        "name": "zinc finger protein 831",
+        "node_attributes": null,
+        "symbol": null,
+        "type": [
+          "protein"
+        ],
+        "uri": "http://identifiers.org/uniprot/Q5JPB2"
+      }
+    ]
+  },
+  "message_code": "OK",
+  "n_results": 20,
+  "original_question": "",
+  "query_graph": {
+    "edges": [
+      {
+        "edge_id": "en00-n01",
+        "negated": null,
+        "relation": null,
+        "source_id": "n00",
+        "target_id": "n01",
+        "type": null
+      },
+      {
+        "edge_id": "en01-n02",
+        "negated": null,
+        "relation": null,
+        "source_id": "n01",
+        "target_id": "n02",
+        "type": null
+      }
+    ],
+    "nodes": [
+      {
+        "curie": "UniProtKB:Q13761",
+        "is_set": null,
+        "node_id": "n00",
+        "type": "protein"
+      },
+      {
+        "curie": null,
+        "is_set": true,
+        "node_id": "n01",
+        "type": "biological_process"
+      },
+      {
+        "curie": null,
+        "is_set": null,
+        "node_id": "n02",
+        "type": "protein"
+      }
+    ]
+  },
+  "query_type_id": "Q36",
+  "reasoner_id": "RTX",
+  "restated_question": "",
+  "results": [
+    {
+      "confidence": 0.3,
+      "description": "The protein runt related transcription factor 1 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.300000",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "en01-n02": [
+          "1",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      "essence": "runt related transcription factor 1",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7504",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0030182",
+          "GO:0045595",
+          "GO:0001503",
+          "GO:0048935",
+          "GO:0002062",
+          "GO:0030097",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q01196"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "runt related transcription factor 1",
+        "UniProtKB:Q01196",
+        "0.300000"
+      ]
+    },
+    {
+      "confidence": 0.2777777777777778,
+      "description": "The protein zinc finger homeobox 3 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.277778",
+      "edge_bindings": {
+        "en00-n01": [
+          "2",
+          "19",
+          "22",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "18",
+          "20",
+          "21",
+          "24",
+          "25"
+        ]
+      },
+      "essence": "zinc finger homeobox 3",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7505",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006366",
+          "GO:0071559",
+          "GO:0000122",
+          "GO:0006355",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q15911"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger homeobox 3",
+        "UniProtKB:Q15911",
+        "0.277778"
+      ]
+    },
+    {
+      "confidence": 0.26666666666666666,
+      "description": "The protein nuclear factor, erythroid 2 like 3 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.266667",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "22",
+          "17"
+        ],
+        "en01-n02": [
+          "26",
+          "27",
+          "28",
+          "29"
+        ]
+      },
+      "essence": "nuclear factor, erythroid 2 like 3",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7506",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0000122",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q9Y4A8"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "nuclear factor, erythroid 2 like 3",
+        "UniProtKB:Q9Y4A8",
+        "0.266667"
+      ]
+    },
+    {
+      "confidence": 0.23529411764705882,
+      "description": "The protein nuclear transcription factor Y subunit alpha involves similar biological_processs as runt related transcription factor 3 with similarity value 0.235294",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "30",
+          "31",
+          "32",
+          "33"
+        ]
+      },
+      "essence": "nuclear transcription factor Y subunit alpha",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7507",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:P23511"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "nuclear transcription factor Y subunit alpha",
+        "UniProtKB:P23511",
+        "0.235294"
+      ]
+    },
+    {
+      "confidence": 0.23529411764705882,
+      "description": "The protein SPT3 homolog, SAGA and STAGA complex component involves similar biological_processs as runt related transcription factor 3 with similarity value 0.235294",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "34",
+          "35",
+          "36",
+          "37"
+        ]
+      },
+      "essence": "SPT3 homolog, SAGA and STAGA complex component",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7508",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:O75486"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "SPT3 homolog, SAGA and STAGA complex component",
+        "UniProtKB:O75486",
+        "0.235294"
+      ]
+    },
+    {
+      "confidence": 0.22727272727272727,
+      "description": "The protein SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.227273",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "22",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "38",
+          "39",
+          "40",
+          "41",
+          "42"
+        ]
+      },
+      "essence": "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7509",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0000122",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:P51531"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2",
+        "UniProtKB:P51531",
+        "0.227273"
+      ]
+    },
+    {
+      "confidence": 0.2222222222222222,
+      "description": "The protein human immunodeficiency virus type I enhancer binding protein 3 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.222222",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "43",
+          "44",
+          "45",
+          "46"
+        ]
+      },
+      "essence": "human immunodeficiency virus type I enhancer binding protein 3",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7510",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006355",
+          "GO:0006366",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q5T1R4"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "human immunodeficiency virus type I enhancer binding protein 3",
+        "UniProtKB:Q5T1R4",
+        "0.222222"
+      ]
+    },
+    {
+      "confidence": 0.21052631578947367,
+      "description": "The protein transcription factor like 5 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.210526",
+      "edge_bindings": {
+        "en00-n01": [
+          "2",
+          "22",
+          "23",
+          "16"
+        ],
+        "en01-n02": [
+          "47",
+          "48",
+          "49",
+          "50"
+        ]
+      },
+      "essence": "transcription factor like 5",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7511",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0000122",
+          "GO:0045595"
+        ],
+        "n02": [
+          "UniProtKB:Q9UL49"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "transcription factor like 5",
+        "UniProtKB:Q9UL49",
+        "0.210526"
+      ]
+    },
+    {
+      "confidence": 0.2,
+      "description": "The protein zinc finger protein 516 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.200000",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "51",
+          "52",
+          "53",
+          "54"
+        ]
+      },
+      "essence": "zinc finger protein 516",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7513",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006355",
+          "GO:0006366",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q92618"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger protein 516",
+        "UniProtKB:Q92618",
+        "0.200000"
+      ]
+    },
+    {
+      "confidence": 0.2,
+      "description": "The protein PBX homeobox 4 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.200000",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "17"
+        ],
+        "en01-n02": [
+          "55",
+          "56",
+          "57"
+        ]
+      },
+      "essence": "PBX homeobox 4",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7512",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q9BYU1"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "PBX homeobox 4",
+        "UniProtKB:Q9BYU1",
+        "0.200000"
+      ]
+    },
+    {
+      "confidence": 0.2,
+      "description": "The protein cAMP responsive element binding protein 5 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.200000",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "17"
+        ],
+        "en01-n02": [
+          "58",
+          "59",
+          "60"
+        ]
+      },
+      "essence": "cAMP responsive element binding protein 5",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7515",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q02930"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "cAMP responsive element binding protein 5",
+        "UniProtKB:Q02930",
+        "0.200000"
+      ]
+    },
+    {
+      "confidence": 0.2,
+      "description": "The protein zinc finger protein 136 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.200000",
+      "edge_bindings": {
+        "en00-n01": [
+          "2",
+          "22",
+          "23"
+        ],
+        "en01-n02": [
+          "61",
+          "62",
+          "63"
+        ]
+      },
+      "essence": "zinc finger protein 136",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7514",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0000122"
+        ],
+        "n02": [
+          "UniProtKB:P52737"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger protein 136",
+        "UniProtKB:P52737",
+        "0.200000"
+      ]
+    },
+    {
+      "confidence": 0.1875,
+      "description": "The protein zinc finger protein 160 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.187500",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "12",
+          "23"
+        ],
+        "en01-n02": [
+          "64",
+          "65",
+          "66"
+        ]
+      },
+      "essence": "zinc finger protein 160",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7516",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006355",
+          "GO:0030097"
+        ],
+        "n02": [
+          "UniProtKB:Q9HCG1"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger protein 160",
+        "UniProtKB:Q9HCG1",
+        "0.187500"
+      ]
+    },
+    {
+      "confidence": 0.1875,
+      "description": "The protein myeloid zinc finger 1 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.187500",
+      "edge_bindings": {
+        "en00-n01": [
+          "2",
+          "22",
+          "23"
+        ],
+        "en01-n02": [
+          "67",
+          "68",
+          "69"
+        ]
+      },
+      "essence": "myeloid zinc finger 1",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7518",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0000122"
+        ],
+        "n02": [
+          "UniProtKB:P28698"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "myeloid zinc finger 1",
+        "UniProtKB:P28698",
+        "0.187500"
+      ]
+    },
+    {
+      "confidence": 0.1875,
+      "description": "The protein regulatory factor X5 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.187500",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "22"
+        ],
+        "en01-n02": [
+          "70",
+          "71",
+          "72"
+        ]
+      },
+      "essence": "regulatory factor X5",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7519",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0000122"
+        ],
+        "n02": [
+          "UniProtKB:P48382"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "regulatory factor X5",
+        "UniProtKB:P48382",
+        "0.187500"
+      ]
+    },
+    {
+      "confidence": 0.1875,
+      "description": "The protein zinc finger protein 398 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.187500",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "23",
+          "17"
+        ],
+        "en01-n02": [
+          "73",
+          "74",
+          "75"
+        ]
+      },
+      "essence": "zinc finger protein 398",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7517",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006355",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q8TD17"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger protein 398",
+        "UniProtKB:Q8TD17",
+        "0.187500"
+      ]
+    },
+    {
+      "confidence": 0.18421052631578946,
+      "description": "The protein runt related transcription factor 2 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.184211",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17"
+        ],
+        "en01-n02": [
+          "76",
+          "77",
+          "78",
+          "79",
+          "80",
+          "81",
+          "82"
+        ]
+      },
+      "essence": "runt related transcription factor 2",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7520",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0030182",
+          "GO:0045595",
+          "GO:0001503",
+          "GO:0002062",
+          "GO:0030097",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q13950"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "runt related transcription factor 2",
+        "UniProtKB:Q13950",
+        "0.184211"
+      ]
+    },
+    {
+      "confidence": 0.18181818181818182,
+      "description": "The protein TATA-box binding protein associated factor 1 like involves similar biological_processs as runt related transcription factor 3 with similarity value 0.181818",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "2",
+          "87",
+          "17"
+        ],
+        "en01-n02": [
+          "83",
+          "84",
+          "85",
+          "86"
+        ]
+      },
+      "essence": "TATA-box binding protein associated factor 1 like",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7521",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006366",
+          "GO:0006468",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q8IZX4"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "TATA-box binding protein associated factor 1 like",
+        "UniProtKB:Q8IZX4",
+        "0.181818"
+      ]
+    },
+    {
+      "confidence": 0.18181818181818182,
+      "description": "The protein MAGE family member D1 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.181818",
+      "edge_bindings": {
+        "en00-n01": [
+          "0",
+          "23",
+          "92",
+          "17"
+        ],
+        "en01-n02": [
+          "88",
+          "89",
+          "90",
+          "91"
+        ]
+      },
+      "essence": "MAGE family member D1",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7522",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006357",
+          "GO:0006355",
+          "GO:0050680",
+          "GO:0045893"
+        ],
+        "n02": [
+          "UniProtKB:Q9Y5V3"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "MAGE family member D1",
+        "UniProtKB:Q9Y5V3",
+        "0.181818"
+      ]
+    },
+    {
+      "confidence": 0.17647058823529413,
+      "description": "The protein zinc finger protein 831 involves similar biological_processs as runt related transcription factor 3 with similarity value 0.176471",
+      "edge_bindings": {
+        "en00-n01": [
+          "2",
+          "22",
+          "23"
+        ],
+        "en01-n02": [
+          "93",
+          "94",
+          "95"
+        ]
+      },
+      "essence": "zinc finger protein 831",
+      "essence_type": "protein",
+      "id": "https://rtx.ncats.io/api/rtx/v1/result/7610",
+      "node_bindings": {
+        "n00": [
+          "UniProtKB:Q13761"
+        ],
+        "n01": [
+          "GO:0006366",
+          "GO:0006355",
+          "GO:0000122"
+        ],
+        "n02": [
+          "UniProtKB:Q5JPB2"
+        ]
+      },
+      "reasoner_id": "RTX",
+      "result_type": "individual query answer",
+      "row_data": [
+        "runt related transcription factor 3",
+        "UniProtKB:Q13761",
+        "zinc finger protein 831",
+        "UniProtKB:Q5JPB2",
+        "0.176471"
+      ]
+    }
+  ],
+  "schema_version": "0.9.1",
+  "table_column_names": [
+    "source name",
+    "source ID",
+    "target name",
+    "target ID",
+    "Jaccard index"
+  ],
+  "terms": {
+    "protein": "UniProtKB:Q13761"
+  },
+  "tool_version": "RTX 0.5.4",
+  "type": "translator_reasoner_message"
+}

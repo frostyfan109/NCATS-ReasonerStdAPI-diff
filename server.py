@@ -11,6 +11,7 @@ import requests
 from graph_compare import GraphComparator
 from node_diff import NodeDiff
 from normalizer import Normalizer
+from qmap import q_map
 from flask import Flask, request, abort, Response
 from flask_restful import Api, Resource
 from flasgger import Swagger
@@ -100,6 +101,17 @@ class DiffQuery(StandardAPIResource):
         if 'results' in answer_2:
             answer_2['answers'] = answer_2['results']
             del answer_2['results']
+
+        if 'question_graph' not in answer_1 and 'reasoner_id' in answer_1 and 'query_type_id' in answer_1:
+            if answer_1['reasoner_id'] == 'RTX' and answer_1['query_type_id'] in q_map:
+                answer_1['question_graph'] = q_map[answer_1['query_type_id']]['question_graph']
+                answer_1['question_graph']['nodes'][0]['curie'] = answer_1['terms'][answer_1['question_graph']['nodes'][0]['type']]
+
+        if 'question_graph' not in answer_2 and 'reasoner_id' in answer_2 and 'query_type_id' in answer_2:
+            if answer_2['reasoner_id'] == 'RTX' and answer_2['query_type_id'] in q_map:
+                answer_2['question_graph'] = q_map[answer_2['query_type_id']]['question_graph']
+                answer_2['question_graph']['nodes'][0]['curie'] = answer_2['terms'][answer_2['question_graph']['nodes'][0]['type']]
+
 
         answer_1_norm = normalizer.normalize (answer_1)
         answer_2_norm = normalizer.normalize (answer_2)

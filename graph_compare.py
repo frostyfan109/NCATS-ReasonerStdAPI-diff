@@ -117,7 +117,8 @@ class GraphComparator:
         g1_g2_connected_nodes_data = []
         # now get the data associated to these nodes
         for node in g1_g2_connected_nodes:
-            g1_g2_connected_nodes_data.append(g1_g2.node[node]['attr_dict'])
+            data = g1_g2.nodes(data=True)[node]
+            g1_g2_connected_nodes_data.append(data)
 
         g2_g1_connected_nodes = set()
         for u, v, d in g2_g1.edges(data=True):

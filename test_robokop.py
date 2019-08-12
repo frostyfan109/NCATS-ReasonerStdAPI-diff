@@ -18176,3 +18176,38 @@ answer = {
     }
   ]
 }
+question={
+  "natural_question": "Jak Inhibitor Drugs",
+  "machine_question": {
+    "nodes": [
+      {
+        "id": "n0",
+        "type": "gene",
+        "name": "HGNC:6192",
+        "curie": [
+          "HGNC:6192"
+        ]
+      },
+      {
+        "id": "n1",
+        "type": "chemical_substance"
+      }
+    ],
+    "edges": [
+      {
+        "type": [
+          "decreases_activity_of",
+          "decreases_response_to",
+          "decreases_secretion_of",
+          "decreases_expression_of",
+          "decreases_synthesis_of"
+        ],
+        "id": "e0",
+        "source_id": "n1",
+        "target_id": "n0"
+      }
+    ]
+  },
+  "max_connectivity": 0
+}
+headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}

@@ -18,7 +18,7 @@ class GraphComparator:
             #print (e['id'])
             g.add_edge (e['source_id'], e['target_id'], attr_dict=e)
         return g
-    
+
     def diff_graphs0 (self, g1, g2):
         """ Diff nx graphs. """
         g1_copy = g1.copy ()
@@ -55,7 +55,7 @@ class GraphComparator:
                         print (f"g2e in g2: {json.dumps(g2e[3]['attr_dict'], indent=2)}")
                         print (f"========================================")
                         '''
-                        pass                    
+                        pass
         for de in edges_to_delete:
             try:
                 g1_copy_2.remove_edge (de[0], de[1], key=de[2])
@@ -63,13 +63,13 @@ class GraphComparator:
                 print ("exception deleting edge")
                 pass
         #print (f"1. edges in g1_copy_2: {len(list(g1_copy_2.edges ()))}")
-                   
+
         return g1_copy_2
-    
+
     def edge_equals0 (self, e1, e2):
         fields = [ "source_id", "target_id", "edge_source", "relation", "type" ]
         return all([ field in e1 and field in e2 and e1[field] == e2[field] for field in fields ])
-            
+
     def edge_equals (self, e1, e2):
         equal = True
         #fields = [ "source_id", "target_id", "type", "edge_source", "source_database" ]
@@ -80,8 +80,8 @@ class GraphComparator:
                 equal = False
                 break
         return equal
-            
-    def intersect (self, g1, g2):        
+
+    def intersect (self, g1, g2):
         g1_copy = g1.copy ()
         g1_copy.remove_nodes_from(n for n in g1 if not n in g2)
         intersection = nx.MultiDiGraph ()
@@ -92,7 +92,7 @@ class GraphComparator:
         g1_copy_2 = g1.copy ()
         g1_copy_2.remove_nodes_from(n for n in g1 if not n in intersection)
         return g1_copy_2
-    
+
     def print_graph (self, g):
         """ Print graph. """
         for n in g.nodes (data=True):
@@ -118,7 +118,7 @@ class GraphComparator:
         # now get the data associated to these nodes
         for node in g1_g2_connected_nodes:
             data = g1_g2.nodes(data=True)[node]
-            g1_g2_connected_nodes_data.append(data)
+            g1_g2_connected_nodes_data.append(g1_g2.node[node]['attr_dict'])
 
         g2_g1_connected_nodes = set()
         for u, v, d in g2_g1.edges(data=True):

@@ -1,0 +1,3 @@
+recursive-include ReasonerStdAPI_diff *.yaml
+recursive-include ReasonerStdAPI_diff *.yml
+recursive-include ReasonerStdAPI_diff *.json
